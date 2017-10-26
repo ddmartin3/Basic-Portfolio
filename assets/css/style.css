@@ -10,6 +10,7 @@ h1, h2, h3{
 
 h2{
 	color: #4aaaa5;
+	font-size: 1.8em;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	border-bottom-width: 3px;
@@ -19,15 +20,21 @@ h2{
 
 header{
 	background: #ffffff;
-	width:100%;
-	height: 90px;
-	border-top: 0;
-	border-left: 0;
-	border-right: 0;
-	border-bottom-width: :3px;
-	border-style: solid;
-	border-color: #cccccc;
-	clear: both;
+    width: 100%;
+    height: 90px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 2px;
+    border-style: solid;
+    border-color: #cccccc;
+    clear: both;
+}
+
+#center-head{
+    align-items: center;
+    width: 960px;
+    margin: 0px auto;
 }
 
 body{
@@ -36,15 +43,15 @@ body{
 
 header h1{
 	color: #ffffff;
-	margin-left: 70px;
-	margin-top: 0px;
-	float: left;
-	background: #4aaaa5;
-	padding: 28px;
+    font-size: xx-large;
+    margin-top: 0px;
+    float: left;
+    background: #4aaaa5;
+    padding: 29px;
 }
 
 nav {
-	margin-left: 800px;
+	text-align: right;
 	padding-top: 35px; 
 }
 
@@ -52,13 +59,21 @@ nav a{
 	text-decoration: none;
 }
 
+nav a:link { color: #666666; }
+nav a:visited { color: #666666; }
+nav a:hover { color: #4aaaa5; }
+nav a:active { color: orange; }
+
 #nav-index, #nav-port{
-	padding-right: 5px;
-	padding-left: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
 	border-right: solid;
 	border-width: 2px;
 	border-color: #dddddd;
+}
 
+#nav-contact{
+	padding-left: 15px;
 }
 
 #container{
@@ -78,6 +93,11 @@ nav a{
 	width: 650px;
 	float: left;
 	margin-bottom: 30px;
+}
+
+#portfolio{
+    margin-top: 30px;
+    margin-left: 82px;
 }
 
 #main p, h2{
@@ -123,13 +143,20 @@ h3{
     color: #ffffff;
     text-align: center;
     width: 230px;
-    bottom: 25px;
+    bottom: 52px;
 }
 
+
 form{
-	width: 230px;
+	margin-top: 20px;
+    width: 514px;
     margin-left: 65px;
     padding-bottom: 28px;
+}
+
+button{
+	margin-top: 20px;
+	background: #4aaaa5;
 }
 
 label{
@@ -137,10 +164,14 @@ label{
 }
 
 input{
-	clear: both;
-	width: 100%;
-	margin-top: 20px;
-	margin-bottom: 20px;
+    clear: both;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+textarea{
+	margin-top: 10px;
 }
 
 #social{
@@ -157,6 +188,8 @@ input{
 }
 
 footer{
+    position: absolute;
+    bottom: -500px;
 	color: #ffffff;
 	border-color: #4aaaa5;
 	border-top-width: 5px;
