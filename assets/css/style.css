@@ -106,6 +106,7 @@ nav a:active { color: orange; }
 }
 
 #main p{
+	line-height: 30px;
 	padding-top: 18px;
 	padding-bottom: 15px;
 }
@@ -159,10 +160,6 @@ button{
 	background: #4aaaa5;
 }
 
-label{
-/*	clear: both; */
-}
-
 input{
     clear: both;
     width: 100%;
@@ -189,7 +186,7 @@ textarea{
 
 footer{
     position: absolute;
-    bottom: -500px;
+    bottom: -580px;
 	color: #ffffff;
 	border-color: #4aaaa5;
 	border-top-width: 5px;
